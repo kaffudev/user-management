@@ -10,6 +10,7 @@
 
     <modules>
         <module>common</module>
+        <module>um-webapp</module>
     </modules>
 
     <packaging>pom</packaging>
