@@ -22,8 +22,8 @@ public class UserServiceImpl extends AbstractService<User> implements IUserServi
 
     @Override
     @Transactional(readOnly = true)
-    public User findByName(final String name) {
-        return dao.findByName(name);
+    public User findOneByName(final String name) {
+        return dao.findOneByName(name);
     }
 
     // other

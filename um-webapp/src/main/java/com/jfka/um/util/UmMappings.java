@@ -1,4 +1,4 @@
-package com.jfka.um.utils;
+package com.jfka.um.util;
 
 public final class UmMappings {
 

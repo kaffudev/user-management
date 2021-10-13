@@ -1,6 +1,6 @@
 package com.jfka.um.web.controller;
 
-import com.jfka.um.utils.UmMappings;
+import com.jfka.um.util.UmMappings;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

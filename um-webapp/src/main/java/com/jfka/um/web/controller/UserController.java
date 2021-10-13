@@ -5,7 +5,7 @@ import com.jfka.common.web.controller.AbstractController;
 import com.jfka.common.web.controller.ISortingController;
 import com.jfka.um.persistence.model.User;
 import com.jfka.um.service.IUserService;
-import com.jfka.um.utils.UmMappings;
+import com.jfka.um.util.UmMappings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;

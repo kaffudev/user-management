@@ -30,9 +30,10 @@ public class Privilege implements INameableEntity, INameableDto {
         super();
     }
 
-    public Privilege(final String nameToSet) {
+    public Privilege(final String name, final String description) {
         super();
-        name = nameToSet;
+        this.name = name;
+        this.description = description;
     }
 
 

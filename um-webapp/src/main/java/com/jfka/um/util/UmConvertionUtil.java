@@ -1,4 +1,4 @@
-package com.jfka.um.utils;
+package com.jfka.um.util;
 
 import com.jfka.um.persistence.model.Privilege;
 import com.jfka.um.persistence.model.Role;
