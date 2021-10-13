@@ -8,6 +8,7 @@ import javax.persistence.*;
 import java.util.Objects;
 import java.util.Set;
 
+@Entity
 public class Privilege implements INameableEntity, INameableDto {
 
     @Id
@@ -29,7 +30,7 @@ public class Privilege implements INameableEntity, INameableDto {
         super();
     }
 
-    public Privilege(String nameToSet) {
+    public Privilege(final String nameToSet) {
         super();
         name = nameToSet;
     }
@@ -41,7 +42,7 @@ public class Privilege implements INameableEntity, INameableDto {
     }
 
     @Override
-    public void setId(Long idToSet) {
+    public void setId(final Long idToSet) {
         id = idToSet;
     }
 
